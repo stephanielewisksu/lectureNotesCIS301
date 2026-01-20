@@ -1,36 +1,43 @@
-CIS 301. Logical Foundations of Programming.
+### CIS 301. 
+Logical Foundations of Programming. \eng building 1109\
+Julie Thornton. \Previously CIS200\
 
-Julie Thornton.
-
-What is this class?
+### What is this class?
 - logical reasoning (basics, puzzles)
-- writing formal statements (propositional and predicate logic)
-- proofs (why?)
+- writing **formal statements** (propositional and predicate logic)
+- **proofs** (why? - certainty in logic)
 - reasoning about code
     - analyzing what we know
     - identifying equivalent programs
     - simplifying programs
     - formally describing what programs do
-- basics of proving correctness of programs (why?)
+- basics of **proving correctness** of programs (why? - ssecurity of software, untestable scenarios like medical)
 
+### Syllabus
+- grading leeway: drops + final can help with a midterm if better grade
+- extra credit: find errors, help people
+- important academic honesty note: cooperation allowed
+- AI not allowed! YAY
+- Ok also important, syntax matters because we're using a particular tool
 
-Syllabus
+### Canvas setup 
+- weekly class material
+- in-class quizzes aren't that important but check understanding / show attendance
+- Ed-Discussion: intro assignment plus extra credit, good to ask Qs
 
-Canvas setup - weekly class material
-
-Ed Discussion
-
-How to take notes
-
-Attendance/practice quizzes
-
+### How to take notes
+- forked repository (type into MY folder so merges don't conflict)
 
 ///////////////////////////////////////////////////////
 
-HW 0 - due Thursday, January 22
-    --> see how to do it
+HW 0 
+- due Thursday, January 22
+- ed-discussion plus tech check
+- will be using an extension + repository clone for tech check
+- submit link to commit like CIS200
 
-HW 1 - due Tuesday, January 27
+HW 1 
+- due Tuesday, January 27
 
 ////////////////////////////////////////////////////////
 
