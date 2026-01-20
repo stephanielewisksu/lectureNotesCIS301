@@ -172,81 +172,54 @@ if (num < 4 || x >= 10) {
 ### Suppose y is NOT 17 here. What do we know?
 Contrapositive: the if statement cannot be true.
 
+Note: negation of an OR statement (a OR b) can be (!a AND !b), by name DeMorgan's Law
+
 ---
 
-Logic puzzles.
+### Logic puzzles.
 
-The puzzles in this lecture are from or inspired by:
-"What is the Name of This Book?", by Raymond Smullyan
+The puzzles in this lecture are from or inspired by: "What is the Name of This Book?", by Raymond Smullyan
 
-///////////////////////////////////////////////////////
-
-The island of Knights and Knaves.
+**The island of Knights and Knaves.**
+(seems like a specifc version of the liar's paradox)
 Each inhabitant is either a knight or a knave.
-
 Knights ALWAYS tell the truth, and knaves ALWAYS lie.
-
-///////////////////////////////////////////////////////
-
-Who can say, "I'm a knave"?  
-
+Who can say, "I'm a knave"?
 Can a knight? 
-Can a knave? 
+- NO, knights cannot lie
+Can a knave?
+- NO, cannot tell the truth
 
-
-
-//////////////////////////////////////////////////////////
-
-You see two inhabitants, Eve and Fred.
-
+You see two inhabitants on this island, Eve and Fred.
 Eve says, "I am a knave or Fred is a knight."
+- "I am a knave" cannot be true, thus Eve is NOT a knave
+- Fred is a knight MUST be true
 
+**What are Eve and Fred?**
+- Eve is a knight, Fred is a knight.
 
+(*what does the "or" mean?* as long as one part of the statement is true, the full statement is true)
 
-What are Eve and Fred? 
-
-
-
-(what does the "or" mean?) 
-
-
-
-Her WHOLE statement is the or
-
-/////////////////////////////////////////////////////////
-
-You see two different inhabitants, Ava and Bob.
-
+You see two more inhabitants, Ava and Bob.
 Ava says that Bob is a knave.
 Bob says, "Neither Ava nor I are knaves."
+**Rewrite Bob:** !(Ava knave) AND !(Bob knave), or both knights 
 
-
-Rewrite Bob: 
-
-
-
-What are Ava and Bob? 
-
-
-
-
+**What are Ava and Bob?** 
+If what Bob says is true, Ava is false (which contradicts her being a knight).
+If Ava is a knight, both statements are true.
 
 What does "neither" mean?
 
+---
 
-
-
-////////////////////////////////////////////////////////
-
-Homework 0: due Thursday, January 22
+**Homework 0:** due Thursday, January 22
     - get Sireum + GitHub ready (do this now!)
     - post something in Ed Discussion
     - come to office hours or post in Ed Discussion if
         you need software setup help!
 
-Homework 1: due Tuesday, January 27
+**Homework 1:** due Tuesday, January 27
     - first page of homework is logical reasoning
         (what we did today)
     - second page is logic puzzles
-
-Next: finish logic puzzles, start truth tables
