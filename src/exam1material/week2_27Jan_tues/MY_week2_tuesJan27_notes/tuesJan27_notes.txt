@@ -50,10 +50,10 @@ Evaluating logical statements.
 
 Basic operations:
 
-∧ - 
-∨ - 
-¬ - 
-→ - 
+∧ - AND
+∨ - OR
+¬ - NOT
+→ - IMPLIES
 
 ////////////////////////////////////////
 
@@ -202,16 +202,13 @@ Contingent, contradictory, tautology
 
 
 
-contingent: 
+contingent: "neither necessary nor impossible", something only sometimes true
 
     Example? 
 
-
-
-contradictory:
+contradictory: conflicts with itself, never true
 
     Example? 
-
 
 tautology:
 
