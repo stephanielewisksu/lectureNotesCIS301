@@ -210,7 +210,7 @@ contradictory: conflicts with itself, never true
 
     Example? 
 
-tautology:
+tautology: true
 
     Example? 
     
