@@ -1,23 +1,15 @@
 HW 0 - due today (what to submit?)
-
-    link format
-
-
+    link format - just has to be the .../tree/... link specifically
 
 HW 1 - due Tuesday, January 27
     be sure to explain your reasoning when asked
-    on logic puzzles, should be clear why your answer is the only  
-        one
-
+    on logic puzzles, should be clear why your answer is the only one
 
 ////////////////////////////////////////////////////////
 
 - where to find examples from class
-
-- how to clone lecture notes repo
-
+- how to clone lecture notes repo (got it lol)
 - weekly review quizzes
-
 - what to do before/after each class
 
 /////////////////////////////////////////////////////////
@@ -27,7 +19,6 @@ Today:
 - More with logical reasoning and puzzles
 - Begin logic gates and truth tables
 - Evaluating logical statements
-
 
 /////////////////////////////////////////////////////////
 
@@ -43,10 +34,8 @@ else {
     statements3;
 }
 
-
-
 --> is it possible for "statements2" to execute?7
-
+    - No, statements1 if() would have to be true for statements2 else if() to be true, and then statements1 would run instead.
 
 
 
