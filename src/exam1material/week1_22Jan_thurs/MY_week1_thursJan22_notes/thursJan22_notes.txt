@@ -37,17 +37,13 @@ else {
 --> is it possible for "statements2" to execute?7
     - No, statements1 if() would have to be true for statements2 else if() to be true, and then statements1 would run instead.
 
-
-
+(ignoring the knights and knaves segments to save time)
 ////////////////////////////////////////////////////////
 
 More with knights and knaves.
 
 knights: each full statement that they make is true
 knave: each full statement must be false
-
-
-
 
 You meet three inhabitants: Sarah, Bill and Mae.
 
@@ -57,12 +53,7 @@ Mae tells you, "Bill would tell you that I am a knave."
 
 What types are Sarah, Bill, and Mae?
 
-
 (How might we simplify everything?)
-
-
-    
-
 
 ////////////////////////////////////
 
@@ -97,20 +88,9 @@ The second one says: "I'm Tweedledee."
 
 Which is which? What day is it?
 
-
-
-
-
-
-
-
 //////////////////////////////////
 
 In-class quiz
-
-
-
-
 
 //////////////////////////////////
 
@@ -120,7 +100,6 @@ You find it, and want to return it to the correct one.
 You don't know what day it is, but are sure that it isn’t
     Sunday.
 
-
 (we know one is lying, one is telling truth)
 
 The first one says: "Tweedledee owns the rattle."
@@ -129,7 +108,6 @@ The second one says: "I'm Tweedledee!"
 Who gets the rattle?
 
 Who is who?
-
 
 ///////////////////////////////////////////
 
@@ -146,11 +124,6 @@ Silver casket: "The portrait is not in this casket."
 Lead casket: "The portrait is not in the gold casket."
 
 Where is the portrait?
-
-
-
-
-
 
 ///////////////////////////////////
 
@@ -172,21 +145,15 @@ Cheryl privately tells Albert her birthday month.
 Cheryl privately tells Bernard her birthday day (number).
     (14-19)
 
-
 Albert says: "I don't know when Cheryl's birthday is,
     but I know Bernard doesn't know too."
 
 Bernard says: "At first I didn't know when Cheryl's
     birthday is, but now I do."
 
-
 Albert says: "Then I also know when Cheryl's birthday is."
 
-
 When is it?
-
-
-
 
 ///////////////////////////////////
 
@@ -204,22 +171,17 @@ Basic operations:
 ¬   not (!)
 →   implies (if/then ->)
 
-
 Basic logic gates (draw on board)
-
 
 gates still used to design circuits
 
-
 why do we care about equivalent circuits?
-
 
 what about programming?
 
 ///////////////////////////////////////////////////
 
 Fill in basic operations:
-
 
 AND:
 
@@ -229,7 +191,6 @@ T T  #
 T F  #    
 F T  #     
 F F  #    
-
 
 OR:
 
@@ -272,31 +233,23 @@ F F  #
 /////////////////////////////////////////
 
 How does the implies operator relate to programming?
-
-
+    if (condition) { // code }
+    (condition) -> // code
 
 //////////////////////////////////////////
 
 Design circuits for:
-
 ¬(p ∨ q)       (p NOR q)
-
-
 p XOR q (with just the gates we've seen, not a specific XOR gate)
-
-
 
 /////////////////////////////////////
 
 How would we evaluate the output of these circuits with
 different inputs?
 
-
-
 Graphically build circuits:
 
 https://logic.ly/demo/
-
 
 //////////////////////////////////////
 
@@ -315,19 +268,13 @@ Consider ¬p ∨ q ∧ r.
 
 --> what operation do we do first?
 
-
-
-Order of operations
+Order of operations: (), NOT, AND, OR, implies, equal
 
 In math?
-
-
-
 
 For logic statements:
 
 From highest (happens first) to lowest (happens last) precedence:
-
 
 ////////////////////////////////////////////////
 
@@ -337,9 +284,6 @@ Given this statement:
 
 Add () to show the order of operations.
 
-
-
-
 Evaluate the above statement using these
 variable assignments:
 
@@ -347,12 +291,10 @@ p is T
 q is F
 r is F
 
-
-
 ///////////////////////////////////////////
 
 Next:
-- more with order of operations
+- more with order of operations (!)
 - bigger truth tables
 - parse trees
 - begin propositional logic
